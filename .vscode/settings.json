@@ -2,5 +2,6 @@
     "cmake.sourceDirectory": "/workspaces/cs310/cmake-catch2-lab/tests",
     "files.associations": {
         "iostream": "cpp"
-    }
+    },
+    "cmake.ignoreCMakeListsMissing": true
 }
