@@ -1,0 +1,19 @@
+Start testing: Sep 02 04:47 UTC
+----------------------------------------------------------
+Unable to find executable: unit_tests_NOT_BUILT-b12d07c
+1/1 Testing: unit_tests_NOT_BUILT-b12d07c
+1/1 Test: unit_tests_NOT_BUILT-b12d07c
+Command: ""
+Directory: /workspaces/cs310/cmake-catch2-lab/build
+"unit_tests_NOT_BUILT-b12d07c" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"unit_tests_NOT_BUILT-b12d07c" end time: Sep 02 04:47 UTC
+"unit_tests_NOT_BUILT-b12d07c" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 02 04:47 UTC
