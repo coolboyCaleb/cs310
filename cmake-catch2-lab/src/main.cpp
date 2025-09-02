@@ -4,5 +4,6 @@
 int main(){
     double num = 25.0;
     double result = compute_sqrt(num);
-    std::cout << "Square root of " << num << " is " << result << endl;
+    std::cout << "Square root of " << num << " is " << result << std::endl;
+    return 0;
 }

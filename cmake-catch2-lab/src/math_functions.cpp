@@ -3,7 +3,7 @@
 
 double compute_sqrt(double number){
     if (number < 0){
-        return -1;
+        return -1; // error if negative
     }
     else{
         return std::sqrt(number);
