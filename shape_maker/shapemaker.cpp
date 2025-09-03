@@ -1,14 +1,14 @@
 #include "shapemaker.h"
 
-int shapeMaker::getCanvasWidth()
+int shapeMaker::getCanvasWidth() const
 {
     return width;
 }
-int shapeMaker::getCanvasHeight()
+int shapeMaker::getCanvasHeight() const
 {
     return height;
 }
-int shapeMaker::getDrawingSymbol()
+int shapeMaker::getDrawingSymbol() const
 {
     return drawingSymbol;
 }
@@ -92,13 +92,80 @@ void shapeMaker::drawVerticalLine()
 }
 void shapeMaker::drawFilledSquare()
 {
+    for (int i = 0; i < height; i++){
+        for (int j = 0; j < width; j++){
+            cout << drawingSymbol;
+        }
+        cout << endl;
+    }
 }
 void shapeMaker::drawOpenSquare()
 {
+    for (int i = 0; i < height; i++)
+    {
+        for (int j = 0; j < width; j++)
+        {
+            if (i == 0 || i == height - 1 || j == 0 || j == width - 1) // edges
+            {
+                cout << drawingSymbol;
+            }
+            else
+            {
+                cout << " ";
+            }
+        }
+        cout << endl;
+    }
 }
 void shapeMaker::drawSmileyFace()
 {
+    for (int i = 0; i < height; i++)
+    {
+        for (int j = 0; j < width; j++)
+        {
+            if (i == 0 || i == height - 1 || j == 0 || j == width - 1){ // edges
+                cout << drawingSymbol;
+            }
+            else if(i == height/3 && (j == width/4 || j == 3*width/4)){ // eyes
+                cout << drawingSymbol;
+            }
+            else if(i == height/2 && j == width/2){ // nose
+                cout << drawingSymbol;
+            }
+            else if (i == (2 * height / 3) - 1 && (j == width / 4 || j == 3 * width / 4)) // curve of mouth
+            {
+                cout << drawingSymbol;
+            }
+            else if (i == 2 * height / 3 && j > width / 4 && j < 3 * width / 4) // bottom of mouth
+            {
+                cout << drawingSymbol;
+            }
+            else
+            {
+                cout << " ";
+            }
+        }
+        cout << endl;
+    }
 }
 void shapeMaker::drawOpenCircle()
 {
+    for (int i = 0; i < height; i++)
+    {
+        for (int j = 0; j < width; j++)
+        {
+            if (i == 0 || i == height - 1)
+            {
+                if (j > width / 5 && j < 3 * width / 5)
+                {
+                    cout << drawingSymbol;
+                }
+                else
+                {
+                    cout << " ";
+                }
+            }
+        }
+        cout << endl;
+    }
 }
