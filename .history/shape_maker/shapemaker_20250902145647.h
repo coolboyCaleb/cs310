@@ -11,7 +11,7 @@ class shapeMaker {
         int height;
         char drawingSymbol;
     public:
-        shapeMaker(){
+        shapeMaker(): {
             width = 21;
             height = 21;
             drawingSymbol = '*';
@@ -22,8 +22,8 @@ class shapeMaker {
             drawingSymbol = symb;
         };
         int getCanvasWidth() const;
-        int getCanvasHeight();
-        int getDrawingSymbol();
+        int getCanvasHeight() const;
+        int getDrawingSymbol() const;
         void setCanvasWidth(int w);
         void setCanvasHeight(int h);
         void setDrawingSymbol(char s);

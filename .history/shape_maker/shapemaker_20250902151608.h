@@ -11,19 +11,11 @@ class shapeMaker {
         int height;
         char drawingSymbol;
     public:
-        shapeMaker(){
-            width = 21;
-            height = 21;
-            drawingSymbol = '*';
-        };
-        shapeMaker(int w, int h, char symb){
-            width = w;
-            height = h;
-            drawingSymbol = symb;
-        };
-        int getCanvasWidth();
-        int getCanvasHeight();
-        int getDrawingSymbol();
+        shapeMaker(): width(21), height(21), drawingSymbol('*'){};
+        shapeMaker(int w, int h, char symb): width(w), height(h), drawingSymbol(symb){};
+        int getCanvasWidth() const;
+        int getCanvasHeight() const;
+        int getDrawingSymbol() const;
         void setCanvasWidth(int w);
         void setCanvasHeight(int h);
         void setDrawingSymbol(char s);
