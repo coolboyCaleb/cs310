@@ -1,3 +1,6 @@
+#ifndef UNSORTED_H
+#define UNSORTED_H
+
 #include "ItemType.h" 
 // File ItemType.h must be provided by the user of this class. 
 //  ItemType.h must contain the following definitions: 
@@ -74,3 +77,4 @@ private:
   int currentPos;
 };
 
+#endif

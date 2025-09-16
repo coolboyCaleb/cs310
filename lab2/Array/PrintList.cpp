@@ -1,4 +1,5 @@
 #include <fstream>
+#include "unsorted.h"
 
 void PrintList(ofstream& dataFile, UnsortedType& list)
 // Pre:  list has been initialized.
@@ -16,6 +17,6 @@ void PrintList(ofstream& dataFile, UnsortedType& list)
      item = list.GetNextItem();
      item.Print(dataFile);
    }
-   dataFile << endl;
+   dataFile << std::endl;
 }
 
