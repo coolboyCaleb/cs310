@@ -8,6 +8,7 @@
 #include "unsorted.h"
 
 using namespace std;
+
 void PrintList(ofstream& outFile, UnsortedType& list);
 
 int main()
@@ -42,7 +43,7 @@ int main()
   if (!inFile)
   {
     cout << "file not found" << endl;
-	exit(2)
+    exit(2);
   }
   inFile >> command;
 
