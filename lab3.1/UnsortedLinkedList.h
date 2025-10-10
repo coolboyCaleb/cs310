@@ -1,16 +1,9 @@
 #include <iostream>
 #include <string>
+#include "ItemType.h"
 
 using namespace std;
 
-class ItemType
-{
-public:
-    virtual ~ItemType() = default;
-    virtual bool CompareTo(const ItemType &other) const = 0; // Equality comparision
-    virtual bool LessThan(const ItemType &other) const = 0;  // For sorting
-    virtual void Print(ostream &out) const = 0;
-};
 struct Node
 {
     ItemType *item;
