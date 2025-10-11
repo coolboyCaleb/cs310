@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+project(MediaPlayer)
+find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
+add_executable(tests test_playlist.cpp Playlist.cpp Song.cpp)
+target_link_libraries(tests SFML::Graphics SFML::Audio Catch2::Catch2)
+add_executable(player MediaPlayer.cpp Playlist.cpp Song.cpp)
+target_link_libraries(player SFML::Graphics SFML::Audio)

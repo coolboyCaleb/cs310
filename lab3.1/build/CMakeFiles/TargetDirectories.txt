@@ -1,0 +1,4 @@
+/home/caleb_kaalund/Desktop/cs310/lab3.1/build/CMakeFiles/tests.dir
+/home/caleb_kaalund/Desktop/cs310/lab3.1/build/CMakeFiles/player.dir
+/home/caleb_kaalund/Desktop/cs310/lab3.1/build/CMakeFiles/edit_cache.dir
+/home/caleb_kaalund/Desktop/cs310/lab3.1/build/CMakeFiles/rebuild_cache.dir

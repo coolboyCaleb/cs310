@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/player.dir/MediaPlayer.cpp.o CMakeFiles/player.dir/Playlist.cpp.o CMakeFiles/player.dir/Song.cpp.o -o player  -lSFML::Graphics -lSFML::Audio 
