@@ -19,14 +19,13 @@ private:
     sf::RectangleShape nextButton, prevButton;
     sf::Text playLabel, nextLabel, prevLabel;
     sf::RectangleShape progressBG, progressFill;
-    std::string loadedPath; // keeps track of currently loaded songc
 public:
     MediaPlayer();
     void run();
     void handleEvents();
     void update();
     void render();
-    void loadCurrentSong();           // open file, reset offset, update UI
+    bool loadCurrentSong();           // open file, reset offset, update UI
     void loadPlaylist(const std::string &directory); // Load MP3s from folder
 };
 #endif

@@ -1,4 +1,6 @@
 #include "MediaPlayer.h"
+#include "SortedArrayPlaylist.h"
+#include "Playlist.h"
 #include <iostream>
 
 int main()
