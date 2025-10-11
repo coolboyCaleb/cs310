@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tests.dir/test_playlist.cpp.o CMakeFiles/tests.dir/Playlist.cpp.o CMakeFiles/tests.dir/Song.cpp.o -o tests  -lSFML::Graphics -lSFML::Audio -lCatch2::Catch2 
