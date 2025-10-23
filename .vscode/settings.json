@@ -68,7 +68,9 @@
         "ostream": "cpp",
         "span": "cpp",
         "sstream": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "queue": "cpp",
+        "stack": "cpp"
     },
     "cmake.ignoreCMakeListsMissing": true
 }
