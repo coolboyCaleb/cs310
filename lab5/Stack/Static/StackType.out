@@ -1,0 +1,18 @@
+StackTest.out
+Stack is empty.
+Top element is Q
+Top element is S
+Top element is Z
+Top element is A
+Top element is G
+Top element is F
+Top element is E
+Top element is D
+Top element is L
+Stack is empty.
+Stack is not empty.
+Stack is empty.
+Stack is not full.
+Stack is not full.
+EmptyStack exception thrown.
+Error not found

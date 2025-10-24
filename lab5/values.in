@@ -1,0 +1,21 @@
+
+
+Push 83
+Push 14
+Push 57
+Top
+Second
+IsEmpty
+Push 29
+Push 68
+BottomPreserve
+Copy
+IsFull
+Push 91
+Push 42
+Push 75
+Push 36
+Push 18
+BottomEmpty
+Pop
+Quit

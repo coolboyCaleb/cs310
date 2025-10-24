@@ -1,0 +1,9 @@
+test.out
+Top element is 57
+Second element (original 2nd-from-top) is 14
+Stack is not empty.
+Bottom (stack preserved) is 83
+Copy created; top of copy is 68
+Stack is not full.
+Bottom (stack now empty) is 83
+EmptyStack exception thrown.

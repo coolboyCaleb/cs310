@@ -1,3 +1,3 @@
 // ItemType.h StackDriver
-const int MAX_ITEMS = 5;
-typedef char ItemType;
+const int MAX_ITEMS = 10;
+typedef int ItemType;

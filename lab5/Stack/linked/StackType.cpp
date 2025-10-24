@@ -1,11 +1,6 @@
 // Implementation file for linked StackType
 #include "StackType.h"
 #include <new>
-struct NodeType
-{
-  ItemType info;
-  NodeType* next;
-};
 
 void StackType::Push(ItemType newItem)
 // Adds newItem to the top of the stack.
